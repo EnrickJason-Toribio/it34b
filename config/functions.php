@@ -38,6 +38,7 @@ function loginUSER($pdo, $login, $password){
     $_SESSION['user_username'] = $user['user_username'];
     $_SESSION['user_role'] = $user['user_role'];
 
+    
     return true;
 
 }
