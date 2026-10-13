@@ -12,7 +12,7 @@ CREATE TABLE IF NOT EXISTS activity_logs(
     -- Timestamp
 
     activity_log_created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-)
+);
 
 -- September 07, 2026
 CREATE TABLE IF NOT EXISTS users(
