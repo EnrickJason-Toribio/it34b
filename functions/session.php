@@ -74,7 +74,7 @@ function checkSessionTimeout(){
     // Timeout variable
     // 10 seconds for testing
     // 1800s = 30 minutes
-    $timeout = 1800;
+    $timeout = 10000;
 
     if (isset($_SESSION['last_activity'])) {
 
