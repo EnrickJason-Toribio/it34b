@@ -1,0 +1,74 @@
+
+    body {
+        font-family: Arial, sans-serif;
+        background: #f4f6f9;
+        margin: 30px;
+        color: #333;
+    }
+
+    h1 {
+        color: #222;
+    }
+
+    h4 {
+        margin-top: 25px;
+        color: #444;
+    }
+
+    a.btn {
+        display: inline-block;
+        padding: 10px 15px;
+        margin: 5px 5px 5px 0;
+        text-decoration: none;
+        color: white;
+        border-radius: 5px;
+    }
+
+    .btn-primary {
+        background: #007bff;
+    }
+
+    .btn-danger {
+        background: #dc3545;
+    }
+
+    a.btn:hover {
+        opacity: 0.8;
+    }
+
+    hr {
+        border: 0;
+        border-top: 1px solid #ddd;
+        margin: 20px 0;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        background: white;
+        margin-top: 15px;
+    }
+
+    th, td {
+        padding: 12px;
+        text-align: left;
+        border: 1px solid #ddd;
+    }
+
+    th {
+        background: #007bff;
+        color: white;
+    }
+
+    tr:nth-child(even) {
+        background: #f2f2f2;
+    }
+
+    tr:hover {
+        background: #e9f2ff;
+    }
+
+    /* Make tables scrollable on small screens */
+    body {
+        overflow-x: auto;
+    }
